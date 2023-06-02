@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+notebook = "*"
+pandas = "*"
+seaborn = "*"
+ipywidgets = "*"
+bokeh = "*"
+jupyter-bokeh = "*"
+plotly = "*"
+dash = "*"
+jupyter-dash = "*"
+pycountry-convert = "*"
+geopy = "*"
+pycountry = "*"
+geopandas = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
